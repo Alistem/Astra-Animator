@@ -39,7 +39,6 @@ void ProcCommand::slot_connect(QString num)
 
         com_port->port(num);
         com_port->portConnect();      
-
     }
 }
 
