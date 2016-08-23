@@ -93,4 +93,6 @@ void Tcpclient::slotError(QAbstractSocket::SocketError err)
                                      QString(m_pTcpSocket->errorString())
                                      );
     emit info(strError);
+
+
 }
