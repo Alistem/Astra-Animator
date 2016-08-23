@@ -92,6 +92,5 @@ void Tcpclient::slotError(QAbstractSocket::SocketError err)
                                      "The connection was refused." :
                                      QString(m_pTcpSocket->errorString())
                                      );
-
     emit info(strError);
 }
